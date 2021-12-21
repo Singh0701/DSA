@@ -10,7 +10,6 @@ public class Longest_common_subsequence {
         int l1=s1.length(),l2 = s2.length();
         System.out.println("LCS is "+LCS(s1,s2,l1,l2));
     }
-
     private static int LCS(String s1, String s2, int l1, int l2) {
         if(l1==0||l2==0)
             return 0;
